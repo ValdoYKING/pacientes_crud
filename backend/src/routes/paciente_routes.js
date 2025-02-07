@@ -7,7 +7,7 @@ const router = express.Router();
 
 //obtener todos los pacientes
 /* router.get("/", pacientesController.obtenerPacientes); */
-router.get("/", verificarToken, pacientesController.obtenerPacientes);
+/* router.get("/", verificarToken, pacientesController.obtenerPacientes); */
 
 //obtener un paciente por su id
 router.get("/:id", verificarToken, pacientesController.obtenerPacientePorId);
