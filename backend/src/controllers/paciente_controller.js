@@ -3,7 +3,7 @@ import Paciente from "../models/paciente.js";
 import { registrarLog } from "../middlewares/logMiddleware.js";
 
 //Obtener todos los pacientes
-export const obtenerPacientes = async (requestAnimationFrame, res) => {
+export const obtenerPacientes = async (req, res) => {
     try {
         const pacientes = await Paciente.find();
         res.json(pacientes);
