@@ -2,7 +2,7 @@
 
 Proyecto CRUD de Pacientes con Node.js, Express, MongoDB y React
 
-Este proyecto es una aplicación full-stack que maneja operaciones CRUD para una base de datos de pacientes. Utiliza Node.js con Express para el backend, React para el frontend y MongoDB como base de datos.
+Este proyecto es una aplicación full-stack que maneja operaciones CRUD para una base de datos de pacientes. Utiliza Node.js con Express para el backend, Next.js para el frontend y MongoDB como base de datos.
 
 ## 🚀 Tecnologías Utilizadas
 
