@@ -59,8 +59,8 @@ Este proyecto es una aplicación full-stack que maneja operaciones CRUD para una
 
 ### Autenticación
 
-- **POST** `/api/auth/register` → Registrar un usuario
-- **POST** `/api/auth/login` → Iniciar sesión y obtener un token JWT
+- **POST** `/api/autenticacion/registrar` → Registrar un usuario
+- **POST** `/api/autenticacion/login` → Iniciar sesión y obtener un token JWT
 
 ### 🏥 Pacientes
 
